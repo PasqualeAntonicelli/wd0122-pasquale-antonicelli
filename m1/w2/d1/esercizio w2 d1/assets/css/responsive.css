@@ -1,0 +1,58 @@
+
+@media (max-width:1200px){
+    body{ width: 1024px;
+    }
+}
+
+@media (max-width:1024px){
+    body{
+        width: 768px;
+    }
+}
+
+@media (max-width:768px){
+    body{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:480px){
+    body{
+        width: 320px;
+    }
+}
+@media screen and (min-width: 480px) {
+    tbody{padding-left: 25%;
+          padding-right: 25%;
+        
+        }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    body{padding-left: 25%;
+          padding-right: 25%;
+        
+        }
+
+
+}
+@media screen and (min-width: 1200px) {
+    body {
+        padding-left: 25%;
+        padding-right: 25%;
+
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-left: 25%;
+        padding-right: 25%;
+
+    }
+}
