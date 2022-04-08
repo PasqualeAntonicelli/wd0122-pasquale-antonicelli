@@ -1,0 +1,221 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+
+    font-family: 'Fira Sans', sans-serif;
+    background-position: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+h4{
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+th{
+    font-weight: bold;
+}
+caption{
+    font-weight: bold;
+}
+
+
+
+
+
+/* HEADER */
+#header{
+    padding: 1em;
+    justify-content: space-between;
+    box-shadow: 0 2px 15px #d3d3d3;
+    text-align: center;
+    background-color: #fff;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+   
+}
+header nav{
+    text-align: right;
+}
+
+
+#menu{
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    
+}
+
+#apri-menu{
+    display: none;
+}
+
+input:checked + #menu{
+    height: 100px;
+}
+
+.section1{
+    
+
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 20px;
+    background-image: url(/start/assets/images/banner.jpg);
+   
+}
+.bottone{
+  
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-decoration: solid; 
+    text-align: center;
+    border-color: #0c0633;
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* MAIN */
+
+
+.section2{
+    
+    background-position: center;
+    text-align: center;
+}
+
+.s1{
+    height: 100px;
+
+    background-position: center;
+   
+    text-align: center;  
+    background-size: contain;
+
+}
+
+.s2{ background-position: left;
+   
+    text-align: center;
+    background-size: contain;
+
+}
+
+.s3{ background-position: center;
+    
+    text-align: center;
+    background-size: contain;
+
+}
+.s4{background-position: right;
+   
+    text-align: center;
+    background-size: contain;
+
+}
+
+.s5{
+    height: 70px;
+    
+}
+
+
+.scrivici{
+    height: 100px;
+    margin-top: 30;
+    background-color: #0c0633;
+    
+    background-position: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 20px;
+    background-size: contain;
+    color: #fff;
+    
+
+}
+
+
+#chisiamo1{
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+}
+.img{
+    background-position: center;
+    text-align: center;
+}
+table {
+    table-layout: fixed;
+    width: 400px;
+    text-align: center;
+    border: 0.5px solid rgb(238, 238, 238) ;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-position: center;
+}
+.contatti{
+    height: 200px;
+    background-position: center;
+    text-align: center;
+    
+    background-size: contain
+}
+
+.caselle{height: 70px;
+    background-position: center;
+    text-align: center;
+}
+.section3{
+    text-align: center;
+   
+}
+
+/* FOOTER */
+footer{ background-color: rgb(238, 238, 238);
+text-align: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */

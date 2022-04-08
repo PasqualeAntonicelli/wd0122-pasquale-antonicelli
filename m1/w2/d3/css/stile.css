@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    background-color: aqua;
+
+}
+
+h3 {
+    background-color: green;
+}
+
+.blocco {
+    background-color: yellow;
+    border: 1px solid brown;
+    font-size: 4rem;
+    height: 200px;
+    width: 200px;
+}
+
+#n2 {
+    flex-direction: row-reverse;
+}
+
+
+#n3 {
+    flex-direction: column;
+    height: 500px;
+    /*imposto un'altezza per vedere come gira*/
+}
+
+#n4 {
+    flex-direction: column;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+#n5 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*justify: orizzontale
+  align: verticale
+  */
+
+  #n6{
+      justify-content: flex-end;
+  }
+
+  #n7{
+      justify-content: space-between;
+  }
+
+#n8{
+    justify-content: space-evenly;
+}

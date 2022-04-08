@@ -1,0 +1,22 @@
+body{
+    background-color: lightgrey;
+}
+
+#postit{
+    
+}
+
+
+.post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px darkgrey;
+  
+}
+
+#postit:hover{
+transition: tranform 2s;
+}
+
+
