@@ -1,0 +1,50 @@
+body {
+    background-image:url(/poster-sfondo-fatto-di-carte-con-numeri-colorati.jpg.jpg);
+
+}
+
+
+#calcolatrice {
+    background-position: center;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.tasto {
+    background-color: #a5cff3;
+    color: #175c97;
+    font-size: 22pt;
+    border-radius: 10px;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+    box-shadow: 3px 3px #888888;
+}
+
+.display {
+    background: none;
+    color: #175c97;
+    font-size: 24pt;
+    border: #175c97 solid 2px;
+    margin: 4px 2px;
+    width: 204px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #888888
+}
+
+.uguale {
+    width: 208px;
+    
+}
+
+.tasto:hover{
+   background: greenyellow;
+   box-shadow: 0 12px 16px 0 green, 0 17px 50px 0 greenyellow;
+  
+}
+
+.display:hover{
+    box-shadow: 0 12px 16px 0 green, 0 17px 50px 0 greenyellow ;
+}
