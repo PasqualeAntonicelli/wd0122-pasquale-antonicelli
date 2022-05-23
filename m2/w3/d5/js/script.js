@@ -6,7 +6,7 @@ table.classList.add('table')
 
 
 
-fetch("json/user.json")
+fetch("json/users.json")
 .then(res => res.json())
 .then(res => {
 
@@ -41,7 +41,7 @@ fetch("json/user.json")
 
 
         tr.append(tdUsername,tdNome,tdCognome,tdSesso,tdFoto,tdEmail)
-   
+        table.append(tr)
    
     }
 })
