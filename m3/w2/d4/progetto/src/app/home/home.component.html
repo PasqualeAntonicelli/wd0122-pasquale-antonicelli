@@ -1,0 +1,20 @@
+<input type="text"><button (click)="aggiungi()">Completa</button>
+
+<hr>
+
+<ng-container *ngIf="todos; else loading">
+    <div *ngFor="let todo of todos;">
+        {{todo.title}}
+        <button (click)="Completa(todo.id)"></button>
+
+    </div>
+
+</ng-container>
+
+<ng-template #loading>
+    Caricamento in corso...
+</ng-template>
+
+<ng-template #empty>
+    Non ci sono Todo
+</ng-template>
